@@ -3,13 +3,14 @@
 import Title from "@/ui/Title";
 import { DataImageRoom } from "@/utils/dataimage";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { FaAngleRight } from "react-icons/fa6";
 
 const Rooms = () => {
   const [noOfElement, setNoOfElement] = useState(3);
   const [showMore, setShowMore] = useState(true);
-
+  const router = useRouter();
   const loadMore = () => {
     if (showMore) {
       setNoOfElement(noOfElement + noOfElement);
@@ -29,6 +30,7 @@ const Rooms = () => {
             <div
               key={index}
               className="shadow-lg border h-full rounded-md overflow-hidden"
+              onClick={() => router.push(`/detay/${item.id}`)}
             >
               <Image
                 src={item.img}

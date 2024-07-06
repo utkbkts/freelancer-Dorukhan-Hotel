@@ -2,14 +2,14 @@ import logo1 from "../images/1.jpg";
 import logo2 from "../images/2.jpg";
 import logo3 from "../images/3.jpg";
 import logo10 from "../images/22.jpg";
-import logo11 from "../images/11.jpg";
-import logo12 from "../images/12.JPG";
-import logo13 from "../images/13.jpg";
-import logo14 from "../images/14.JPG";
-import logo16 from "../images/16.jpg";
-import logo17 from "../images/17.jpg";
-import logo20 from "../images/20.jpg";
-import logo21 from "../images/21.jpg";
+import logo11 from "../images/dubleks-ev.jpeg";
+import logo12 from "../images/tekkatli-ev.jpeg";
+import logo13 from "../images/dubleks-ev.jpeg";
+import logo14 from "../images/tekkatli-ev.jpeg";
+import logo16 from "../images/tekkatli-ev.jpeg";
+import logo17 from "../images/tekkatli-ev.jpeg";
+import logo20 from "../images/dubleks-ev.jpeg";
+import logo21 from "../images/dubleks-ev.jpeg";
 export const DataImage = [
   {
     img: logo1,
@@ -42,7 +42,6 @@ export const DataImageRoom = [
   },
   {
     id: 2,
-
     img: logo13,
     type: "Dubleks Daire",
     price: "5.000",
@@ -55,7 +54,6 @@ export const DataImageRoom = [
   },
   {
     id: 3,
-
     img: logo14,
     type: "Tek Katlı",
     price: "3.000",
