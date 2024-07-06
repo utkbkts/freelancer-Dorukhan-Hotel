@@ -5,8 +5,14 @@ import logo10 from "../images/22.jpg";
 import logo11 from "../images/dubleks-ev.jpeg";
 import logo12 from "../images/tekkatli-ev.jpeg";
 import logo13 from "../images/dubleks-ev.jpeg";
+import camdubleks from "../images/dubleks-cam2.jpeg";
+import camdubleks2 from "../images/dubleks-cam.jpeg";
+import dublekstuvalet from "../images/dubleks-tuvalet.jpeg";
+import dublekstuvalet2 from "../images/dubleks-tuvalet2.jpeg";
+import dubleksyatak from "../images/dubleks-yatak3.jpeg";
 import logo14 from "../images/tekkatli-ev.jpeg";
 import logo16 from "../images/tekkatli-ev.jpeg";
+import tekkatliev from "../images/tekkatlı.jpg";
 import logo17 from "../images/tekkatli-ev.jpeg";
 import logo20 from "../images/dubleks-ev.jpeg";
 import logo21 from "../images/dubleks-ev.jpeg";
@@ -30,7 +36,7 @@ export const DataImage = [
 export const DataImageRoom = [
   {
     id: 1,
-    img: logo17,
+    img: [logo17, tekkatliev],
     type: "Tek Katlı",
     price: "3.000",
     address: "Merkez, 28950 Kümbet/Dereli/Giresun",
@@ -42,7 +48,7 @@ export const DataImageRoom = [
   },
   {
     id: 2,
-    img: logo13,
+    img: [logo13, camdubleks, camdubleks2, dublekstuvalet2],
     type: "Dubleks Daire",
     price: "5.000",
     address: "Merkez, 28950 Kümbet/Dereli/Giresun",
@@ -128,7 +134,6 @@ export const DataImageRoom = [
   },
   {
     id: 9,
-
     img: logo21,
     type: "Dubleks Daire",
     price: "5.000",

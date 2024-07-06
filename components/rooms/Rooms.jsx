@@ -33,11 +33,11 @@ const Rooms = () => {
               onClick={() => router.push(`/detay/${item.id}`)}
             >
               <Image
-                src={item.img}
+                src={item.img[0] || item.img}
                 alt="image"
                 width={400}
                 height={400}
-                className="w-[400px] h-[300px] rounded-md room-img"
+                className="w-[400px] h-[300px] rounded-md room-img object-cover"
               />
               <div className="flex items-center justify-between">
                 <h1 className="text-[14px] leading-[21px] not-italic font-medium text-black px-2 py-1 hover:text-warning cursor-pointer bg-[#FBD9CF]">
